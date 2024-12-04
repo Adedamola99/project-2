@@ -1,112 +1,99 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #FAFAFA;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fafafa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 body {
-    margin: 0;
+  margin: 0;
 }
 .container {
-    margin: 4em 4em;
-    background-color: #FAFAFA;
+  margin: 4em 4em;
+  background-color: #fafafa;
 }
 
 .wrapper1 {
-    text-align: center;
-    color: #AFAFB1;
+  text-align: center;
+  color: #afafb1;
 }
 
 .bold {
-    color: black;
-    font-weight: bolder;
-    font-size: 1.3em;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.3em;
 }
 
-h3, h1 {
-    text-transform: capitalize;
+h3,
+h1 {
+  text-transform: capitalize;
 }
 
 .sub {
-    width: 45%;
-    margin: 0 auto;
+  width: 45%;
+  margin: 0 auto;
 }
 
 .wrapper2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 2em auto;
-    align-items: center;
-    gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2em auto;
+  align-items: center;
+  gap: 40px;
 }
 
 .similar {
-    box-shadow: 6px 6px 6px 6px #E2E9F3;
-    border-radius: 5px;
-    font-size: small;
-    padding: 1em;
-    width: 100%;
+  box-shadow: 6px 6px 6px 6px #e2e9f3;
+  border-radius: 5px;
+  font-size: small;
+  padding: 1em;
+  width: 100%;
 }
 
 img {
-    max-width: 20%;
+  max-width: 20%;
 }
 
 .z {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
-
 .a {
-    border-top: 3px solid #51B6B5;
-
+  border-top: 3px solid #51b6b5;
 }
 
 .b {
-    border-top: 3px solid #B23839;
+  border-top: 3px solid #b23839;
 }
 
 .c {
-    border-top: 3px solid #D2A55C;
-    margin-top: 2em;
+  border-top: 3px solid #d2a55c;
+  margin-top: 2em;
 }
 
 .d {
-    border-top: 3px solid #548BB8;
+  border-top: 3px solid #548bb8;
 }
 
-
-
-.wrapper3{
-    margin: 1.4em 0;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-
-
+.wrapper3 {
+  margin: 1.4em 0;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
 }
 
 @media only screen and (max-width: 850px) {
-    .wrapper2 {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }   
-    
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 
-
-    .sub {
-        width: 68%;
-        margin: 0 auto;
-    }
-
-
-
+  .sub {
+    width: 68%;
+    margin: 0 auto;
+  }
 }
-
-
